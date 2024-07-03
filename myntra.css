@@ -1,0 +1,352 @@
+
+.header{
+    position: fixed;
+    height:8vh;
+    width: 100vw;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    box-shadow: black 0px 5px 15px;
+
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .warddropdown{
+    position: relative;
+    display: inline-block;
+   
+  }
+  .warddropdown:hover .dropdown-content{
+    display: block;
+    width: 38vw;
+    height: 80vh;
+    display: flex;
+  
+}
+
+
+
+.sections{
+    margin-left: 20px;
+    padding-top: 0px;
+    justify-content: space-evenly;
+}
+.warddropdown>span{
+    margin-left:20px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: small;
+}
+#logo>img{
+    margin-left: 6px;
+    height: 50px;
+}
+.searchbar{
+    width: 600px;
+    height:30px;
+    margin-left:200px;
+    background-color: rgb(236, 234, 234);
+    border: 0px;
+    /* position: fixed; */
+}
+.pic1{
+    padding: 0px;
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 29px;
+    margin-bottom: 15px;
+}
+.pic2{
+    padding: 0px;
+    /* height: 110px;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px; */
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100vw;
+    margin-top: 89px;
+    height: 67vh
+}
+.box-image1{
+    background-color:  red;
+}
+.heading{
+    text-align: center;
+    font-style: browadway;
+    color:gray;
+    font-size: 35px;
+    
+}
+/* .outer_box{
+    height: 50vh;
+    width: 75vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.inner_div{
+    height: 40vh;
+    width: 40vh;
+    background-color: rgb(252, 48, 112);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+/* .heading{
+    text-align: center;
+} */
+.outer_box{
+    background-color:  #f7f7f7;
+    height: 50vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.inner_box{
+    background-color: rgb(233, 48, 91);
+    height: 45vh;
+    width: 12vw;
+    /* border-radius: 10px; */
+
+    /* display: flex;
+    margin-left: 10px */
+}
+.image1{
+   height: 31vh;
+   width: 11vw;
+   justify-content: space-evenly;
+   padding:3%;
+   padding-left: 16px;
+}
+.text1{
+    text-align: center;
+    font-family:sans-serif;
+    color:white;
+    font-size: large;
+    margin-top: -4%;
+}
+.text2{
+    text-align: center;
+    font-family:sans-serif;
+     color: white;
+     margin-top: -5%;
+     font-size: 168%;
+     font-weight: bolder;
+}
+.text3{
+    text-align: center;
+    font-family:sans-serif;
+     color: white;
+     margin-top: -5%;
+}
+.picher1{
+    margin-left: 4%;
+}
+.picher2{
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+  
+  .row{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .online-shopping{
+    text-align: left;
+    margin-right: 50px;
+    color: gray;
+  }
+  .customer-policies{
+    text-align: left;
+    margin-right: 50px;
+    color: gray;
+  }
+  .app{
+    text-align: left;
+    margin-right: 90px;
+    height: 12vh;
+    color: gray;
+  }
+  .App-Store>img{
+    height: 19vh;
+    width: 56vw;
+    padding-left:45%
+    /* color: gray; */
+  }
+  .Google-play{
+    background-repeat: none;
+    padding-left:45%
+  }
+  .row{
+    display: row;
+    margin-bottom: 20px;
+  }
+.content-heading{
+    color: black;
+    /* text: bold; */
+}
+/* .customer-satisfaction{
+    color:gray;
+} */
+.para-content{
+    color: gray;
+}
+.content-heading{
+    font-size:large ;
+}
+.hadding{
+    color: black;
+    /* text: bold; */
+}
+.fotter3{
+    color: gray;
+}.inner_box1{
+    height: 45vh;
+    width: 19vw;
+    margin-left: 18%;;
+    background-color: rgb(227, 231, 235);
+    border-style: solid;
+    border-right-style: double;
+    border-right-width:12px;
+    border-bottom-width:12px;
+    /* border-top-width:12px; */
+    /* box-shadow: rgba(211, 36, 36, 0.948) 0px 5px 15px; */
+    border-color: #FF5733;
+    border-radius: 4%;
+
+
+}
+.outer_box1{
+    background-color: white;
+    height: 50vh;
+    width: 10vw;
+    display:flex;
+    flex-direction: row;
+    border-color: black;
+}
+.image{
+    height: 29vh;
+}
+.p1{
+    /* text-align: left;
+    font-family:sans-serif;
+    color:rgb(22, 20, 20);
+    font-size: large;
+    margin-top: 4%;
+    font-size: 100%; */
+
+    text-align: center;
+    font-family:sans-serif;
+    color:rgb(10, 9, 9);
+    font-size: large;
+    margin-top: 19px;
+}
+.p2{
+    /* text-align: left;
+    font-family:sans-serif;
+     color: rgb(14, 14, 14);
+     margin-top: 5%;
+     font-size: 100%; */
+
+     text-align: center;
+     font-family:sans-serif;
+      color: black;
+      margin-top: -5%;
+      font-size: 168%;
+      font-weight: bolder;
+}
+.p3{
+    /* text-align: left;
+    font-family:sans-serif;
+     color: rgb(14, 13, 13);
+     margin-top: -5%;
+     font-size: 100%; */
+
+     text-align: center;
+     font-family:sans-serif;
+      color: rgb(5, 5, 5);
+      margin-top: -5%;
+}
+/* #carouselExampleIndicators{
+    height: 1vh;
+} */
+
+
+
+/* 
+.image{
+    height: vh;
+    width: 23.6vw;
+  }
+  .outer_box1{
+    background-color: white;
+    height: 60vh;
+    width: 25vw;
+    display:flex;
+    flex-direction: row;
+ 
+    
+}
+.inner_box1{
+  height: 45vh;
+  width: 19vw;
+  margin-left: 3%;;
+  background-color: rgb(227, 231, 235);
+} */
+
+.drop{
+   
+    margin-left: 5px;
+    background-color: rgb(245, 232, 232);
+}
+.drop>a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.warddropdown>span:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 15, 53);
+    text-decoration-thickness: 5px;
+}
+.drop-down-hading{
+    color: rgb(247, 58, 89);
+    text-decoration-thickness: 5px;
+}
+.studio-vidio{
+    align-items: center;
+    text-decoration-thickness: 5px;
+}
+.studio-vidio{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-size: 41px;
+    font-weight: bolder;
+    margin-top: 19px;  
+}
+.studio-vidio-image{
+    height: 383px;
+    width: 563px;
+}

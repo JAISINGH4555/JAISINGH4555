@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+            <Form id="registration">
+                <h1>Registration</h1>
+    <BR>
+        <H3>personal DETAILS</H3>
+        <BR>
+                <div >
+                    <div class="line">
+                    <label>Full Name</label>
+                     <input id="box1" type="text" placeholder="Enter your name" required>
+                     <label>Date of Birth</label>
+                     <input id="box2" type="text" placeholder="Enter birth date"required>
+                     <label>Email</label>
+                     <input id="box3" type="text" placeholder="Enter your Email"required>
+                    </div>
+                     <br>
+                     <div></div>
+                     <label>Mobil Number</label>
+                     <input type="tel" name="phonenumber" id="box4" title="please use a 10 digit telephone number with no dashes or dots" pattern="[0-9]{10}" placeholder="Enter your number "required>
+                     <label for="cars">Gender</label>
+                    <select id="box5">0
+                     <optgroup value="north india"required>
+                    <option value="">Male</option>
+                    <option value="">female</option>
+                    </optgroup>
+                    </select>
+                     <label>occupation</label>
+                     <input id="box6" type="text" placeholder="Enter  occupation"required>
+                     <BR>
+                        <H3>Identity Details</H3>
+                        <BR>
+                     <div class="lin2">
+                     <!-- <label>ID Type</label>
+                     <input id="box7" type="text" placeholder="Enter ID Type  "> -->
+                     <label for="cars">Id Type</label>
+                    <select id="box7" required>
+                     <optgroup value="north india">
+                    <option value="">Pan card</option>
+                    <option value="">Adhar card</option>
+                    </optgroup>
+                    </select>
+                     <label>ID Number</label>
+                     <input id="box8" type="text" placeholder="Enter ID Number"required>
+                     <label>Issue Authority</label>
+                     <input id="box9" type="text" placeholder="Enter  Issue Authority"required>
+                    </div>
+                     <br>
+                     <div class="lin3">
+                     <label>Issue Data</label>
+                     <input id="box10" type="text" placeholder="Enter ID Issue Data  "required>
+                     <label>Issue State</label>
+                     <input id="box11" type="text" placeholder="Enter ID Issue State"required>
+                     <label>Expirty date</label>
+                     <input id="box12" type="text" placeholder="Enter ID Expirty Data"required>
+                     </div>
+                     <input type="submit" value="submit" >
+                     </div>
+            
+            
+
+        </Form>
+</body>
+<script src="registration.js"></script>
+</html>
